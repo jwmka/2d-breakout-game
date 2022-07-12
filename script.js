@@ -186,7 +186,6 @@ document.addEventListener("mousemove", mouseMoveHandler, false);
 function reflectX() {
   const random = (Math.random() * (score / 20 - 0.01) + 0.01);
   dx < 0 ? dx = -dx + random : dx = -dx - random;
-  console.log("???");
 }
 
 function reflectY() {
